@@ -1,4 +1,4 @@
-package com.api.gestao_vagas.modules.exceptions;
+package com.api.gestao_vagas.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;
