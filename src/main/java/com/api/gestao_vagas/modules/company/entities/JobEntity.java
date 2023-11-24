@@ -28,7 +28,7 @@ public class JobEntity {
   @CreationTimestamp
   private LocalDateTime createdAt;
 
-  @Column(name = "company_id")
+  @Column(name = "company_id", nullable = false)
   private UUID companyId;
 
   @ManyToOne()
